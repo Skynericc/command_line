@@ -12,7 +12,7 @@ module.exports = function (app, passport) {
   });
    app.get("/", function(req, res){
 		res.render("firstPage", {
-			user: req.user
+			user: req.user,
 		});
 	});
   
